@@ -14,7 +14,7 @@ power <- household_power[(household_power$Date =="2007-02-01") | (household_powe
 png("plot1.png", width=480, height=480)
 
 #Create Graph
-hist(as.numeric(as.character(power$Global_active_power)), col="red", main="Global Active Power", xlab="Global Active Power (kilowatts")
+hist(as.numeric(as.character(power$Global_active_power)), col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
 #Close Plot file
 dev.off()
